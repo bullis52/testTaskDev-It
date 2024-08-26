@@ -10,8 +10,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-picker/picker": "^2.7.7",
+    "axios": "^1.7.5",
     "react": "18.3.1",
-    "react-native": "0.75.2"
+    "react-native": "0.75.2",
+    "react-native-charts-wrapper": "^0.6.0",
+    "react-native-date-picker": "^5.0.5",
+    "react-native-svg": "^15.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -22,13 +27,20 @@
     "@react-native/metro-config": "0.75.2",
     "@react-native/typescript-config": "0.75.2",
     "@types/react": "^18.2.6",
+    "@types/react-native-charts-wrapper": "^0.5.11",
     "@types/react-test-renderer": "^18.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
     "babel-jest": "^29.6.3",
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
-    "prettier": "2.8.8",
+    "prettier": "^3.3.3",
     "react-test-renderer": "18.3.1",
-    "typescript": "5.0.4"
+    "typescript": "^5.0.4"
   },
   "engines": {
     "node": ">=18"
